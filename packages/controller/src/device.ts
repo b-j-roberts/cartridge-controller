@@ -18,8 +18,8 @@ import {
   KeychainOptions,
   Modal,
   ResponseCodes,
-} from "./types";
-import { Signer } from "./signer";
+} from "./types.js";
+import { Signer } from "./signer.js";
 import { AsyncMethodReturns } from "@cartridge/penpal";
 
 class DeviceAccount extends Account {

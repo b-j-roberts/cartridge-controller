@@ -1,6 +1,6 @@
-import { PROFILE_URL } from "../constants";
-import { Profile, ProfileOptions } from "../types";
-import { IFrame, IFrameOptions } from "./base";
+import { PROFILE_URL } from "../constants.js";
+import { Profile, ProfileOptions } from "../types.js";
+import { IFrame, IFrameOptions } from "./base.js";
 
 export type ProfileIFrameOptions = IFrameOptions<Profile> &
   ProfileOptions & {

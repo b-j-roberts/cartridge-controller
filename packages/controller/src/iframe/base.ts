@@ -1,6 +1,6 @@
 import { AsyncMethodReturns, connectToChild } from "@cartridge/penpal";
-import { defaultPresets } from "../presets";
-import { ControllerOptions, Modal } from "../types";
+import { defaultPresets } from "../presets.js";
+import { ControllerOptions, Modal } from "../types.js";
 
 export type IFrameOptions<CallSender> = Omit<
   ConstructorParameters<typeof IFrame>[0],

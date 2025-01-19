@@ -1,12 +1,12 @@
-export * from "./errors";
-export * from "./types";
-export { defaultPresets } from "./presets";
-export * from "./verified";
+export * from "./errors.js";
+export * from "./types.js";
+export { defaultPresets } from "./presets.js";
+export * from "./verified.js";
 
 import { AccountInterface, addAddressPadding } from "starknet";
 import { AsyncMethodReturns } from "@cartridge/penpal";
 
-import DeviceAccount from "./device";
+import DeviceAccount from "./device.js";
 import {
   Keychain,
   Policy,
@@ -18,10 +18,10 @@ import {
   Profile,
   IFrames,
   ProfileContextTypeVariant,
-} from "./types";
-import { KeychainIFrame, ProfileIFrame } from "./iframe";
-import { NotReadyToConnect, ProfileNotReady } from "./errors";
-import { RPC_SEPOLIA } from "./constants";
+} from "./types.js";
+import { KeychainIFrame, ProfileIFrame } from "./iframe/index.js";
+import { NotReadyToConnect, ProfileNotReady } from "./errors.js";
+import { RPC_SEPOLIA } from "./constants.js";
 
 export default class Controller {
   private policies: Policy[];

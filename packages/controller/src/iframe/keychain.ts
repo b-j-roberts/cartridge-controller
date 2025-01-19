@@ -1,6 +1,6 @@
-import { KEYCHAIN_URL } from "../constants";
-import { Keychain, KeychainOptions } from "../types";
-import { IFrame, IFrameOptions } from "./base";
+import { KEYCHAIN_URL } from "../constants.js";
+import { Keychain, KeychainOptions } from "../types.js";
+import { IFrame, IFrameOptions } from "./base.js";
 
 type KeychainIframeOptions = IFrameOptions<Keychain> & KeychainOptions;
 

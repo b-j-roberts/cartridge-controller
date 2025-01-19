@@ -1,3 +1,3 @@
-export * from "./base";
-export * from "./keychain";
-export * from "./profile";
+export * from "./base.js";
+export * from "./keychain.js";
+export * from "./profile.js";
