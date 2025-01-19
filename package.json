@@ -3,6 +3,7 @@
   "packageManager": "pnpm@9.7.0",
   "private": true,
   "scripts": {
+    "prepare": "npm run build",
     "preinstall": "npx only-allow pnpm",
     "build:deps": "turbo build:deps",
     "build": "turbo build:deps build",
